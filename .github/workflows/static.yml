@@ -43,4 +43,4 @@ jobs:
         uses: actions/deploy-pages@v2
       - name: Override page_url
         id: change-page-url
-        run: echo "new_page_url=${{ steps.deployment.outputs.page_url }}portfolio/" >> $GITHUB_OUTPUT
+        run: echo "new_page_url=${{ steps.deployment.outputs.page_url }}portfolioz/" >> $GITHUB_OUTPUT
