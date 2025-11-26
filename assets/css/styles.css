@@ -508,11 +508,15 @@ img {
   background-color: var(--first-color);
 }
 
-.skills__html {
+.skills__java {
   width: 100%;
 }
 
-.skills__css {
+.skills__scala {
+  width: 100%;
+}
+
+.skills__kafka {
   width: 100%;
 }
 
@@ -520,35 +524,23 @@ img {
   width: 100%;
 }
 
+.skills__rest {
+  width: 100%;
+}
+
 .skills__react {
   width: 100%;
 }
 
-.skills__php {
+.skills__docker_k8s {
   width: 100%;
 }
 
-.skills__node {
+.skills__bash {
   width: 100%;
 }
 
-.skills__firebase {
-  width: 100%;
-}
-
-.skills__python {
-  width: 100%;
-}
-
-.skills__figma {
-  width: 100%;
-}
-
-.skills__sketch {
-  width: 100%;
-}
-
-.skills__photoshop {
+.skills__ci_cd {
   width: 100%;
 }
 
