@@ -42,6 +42,17 @@
         <link rel="manifest" href="/site.webmanifest">
 
         <link rel="canonical" href="https://portfolio.dinhphu28.com" />
+
+        <!--==================== OneSignalSDK ====================-->
+        <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+        <script>
+          window.OneSignalDeferred = window.OneSignalDeferred || [];
+          OneSignalDeferred.push(async function(OneSignal) {
+            await OneSignal.init({
+              appId: "f3b6251d-5dd4-44d2-b131-4ea104146da1",
+            });
+          });
+        </script>
     </head>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-K602YT5Y52"></script>
